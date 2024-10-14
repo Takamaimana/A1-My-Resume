@@ -30,6 +30,60 @@ nav ul li {
         padding: 17px 24px;
         font-size: 20px;
 
+
+}
+/* banner related style */
+
+.banner-tittle{
+    font-size: 48px;
+    font-weight: 800px;
+    color: rgb(13, 19, 33);
+    text-align: center;
+    margin: 24px 0px;
+    vertical-align: middle;
+
+}
+.banner-description{
+    font-weight:400px;
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+    text-align: center;
+   
+}
+.btn-secondery{
+    border-radius: 8px;
+    gap: 10px;
+    padding: 21px 24px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(13, 19, 33);
+
+}
+.imag-height{
+    width: 340px;
 }
 
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* gap: 25px; */
+    /* padding: 0px ; */
+    
+    background-image: url(../assets/Hero-bg.png);
+    background-size: cover ;
+    height: 978px;
+    /* background-position: center; */
+    
+   
+}
+.banner-content{
+    text-align: center;
+    gap: 25px;
+    padding: 300px ;
+    align-self: stretch;
 
+    
+}
+  
