@@ -109,7 +109,45 @@ main{
 .development{
     margin: 215px;
     text-align: center;
-    margin-left: 270px;
-    margin-right: 276px;
+    margin-left: 100px;
+    margin-right: 115px;
+}
+/* .shared style  */
+
+.btn-goals{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 20px;
+    font-weight: 600px;
+    color: rgb(13, 19, 33);
+
+
+}
+.goals-tittle{
+    font-size: 24px;
+    font-weight: 700px;
+    color:rgba(158, 169, 194, 0.7)
+
+}
+.goals-description{
+    font-size: 16px;
+    font-weight: 400px;
+    color: rgb(13, 19, 33);
+
+}
+
+
+/* goals related style  */
+
+.goals-content{
+    display: flex;
+   
+
+}
+.goals{
+    /* max-width: 477px; */
+    margin-left: 100px;
+    margin-right: 115px;
 }
   
