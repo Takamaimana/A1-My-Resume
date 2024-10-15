@@ -113,6 +113,13 @@ main{
     margin-right: 115px;
 }
 /* .shared style  */
+.text{
+    text-align: center;
+    padding: 97px;
+}
+.links{
+
+}
 
 .btn-goals{
     box-sizing: border-box;
@@ -151,3 +158,105 @@ main{
     margin-right: 115px;
 }
   
+/* inspiration styles  */
+
+.inspiration-tittle{
+    font-size: 32px;
+    font-weight: 800px;
+
+}
+.inspiration-description{
+
+    font-size: 16px;
+    font-weight: 400px;
+}
+.ins-img{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    height: 650px;
+    width: 1175px;
+
+}
+.ins2{
+    margin: 80px;
+}
+.inspiration{
+    text-align: center;
+    /* padding: 50px; */
+   
+}
+    
+/* skill target style  */
+
+.skill-container {
+    display: flex;
+    gap: 30px;
+  
+}
+.skill{
+    padding: 50px;
+    /* margin: 24px; */
+    border-radius: 16px;
+
+    background: rgba(0, 76, 232, 0.05);
+    
+}
+ .target{
+    display:flex ;
+    margin: 0px 25px;
+    gap: 30px;
+    
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    
+   
+ }
+ .img-tar{
+    width: 94.78px;
+height: 84.41px;
+/* padding-bottom: 11px; */
+margin: 0px 25px;
+ }
+ .target-container{
+   column-gap: 30px;
+    
+ }
+ .target-description{
+    padding: 40px;
+ }
+
+ .contact-info{
+    display: flex;
+    text-align: center;
+justify-content: space-between;
+
+ }
+  .last{
+    padding: 25px;
+border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.03);}
+
+/* suppot style  */
+
+.btn-sub{
+    border-radius: 8px;
+   background: rgb(255, 255, 255);
+   margin: 0px 16px;
+   
+}
+  .sub-uni{
+    text-align: center;
+    border-radius: 16px;
+
+background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),
+    
+  }
+  .support{
+    background-image: url(../assets/handshake.jpg);
+    height: 315px;
+    width: 1140px;
+  }
